@@ -1,9 +1,9 @@
 {
-    "Version": "438",
+    "Version": "0",
     "PainelConecta5G": false,
     "ReleaseNotes": false,
-    "UrlUpdate": "https://painelconecta5g.com/update/pasta_CONECTABRASIL5G/config",
-    "Sms": "https://painelconecta5g.com/update/pasta_CONECTABRASIL5G/sms",
+    "UrlUpdate": "https://raw.githubusercontent.com/luffyelbrabo/Update-conecta5g/main/pasta_DNETVPN/config",
+    "Sms": "https://raw.githubusercontent.com/luffyelbrabo/Update-conecta5g/main/pasta_DNETVPN/sms",
     "logoonline": "https://i.ibb.co/xzjDX9m/2020.png",
     "fundoonline": "https://w.forfun.com/fetch/5f/5f6d5fe9b30a6d24b686db5a8a7a2452.jpeg",
     "fundoDoLogOnline": false,
@@ -11,8 +11,8 @@
     "UrlContato": false,
     "UrlTermos": "",
     "CheckUser": "true",
-    "ModderLinkWhatsapp": "https://t.me/helpconectabr",
-    "ModderLinkTelegram": "https://t.me/nobodyofc",
+    "ModderLinkWhatsapp": "https://t.me/luffyelbrabo",
+    "ModderLinkTelegram": "https://t.me/luffyelbrabo2",
     "ModderCorCaixaServ": "",
     "ModderCorCaixaPay": "",
     "ModderCorCaixaCentral": "",
@@ -38,7 +38,7 @@
     ],
     "Servers": [
         {
-            "Name": "👑CONECTABR-VIP👑",
+            "Name": "👑D-NET-VPN-VIP👑",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "dnetvpn.site",
@@ -49,7 +49,7 @@
             "PASS": ""
         },
         {
-            "Name": "🆓CONECTABR-FRE🆓",
+            "Name": "🆓D-NET-VPN-FRE🆓",
             "TYPE": "free",
             "FLAG": "br.png",
             "ServerIP": "conectafree.nobodyofc.online",
