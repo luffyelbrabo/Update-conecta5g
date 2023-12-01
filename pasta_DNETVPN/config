@@ -1,0 +1,505 @@
+{
+    "Version": "438",
+    "PainelConecta5G": false,
+    "ReleaseNotes": false,
+    "UrlUpdate": "https://painelconecta5g.com/update/pasta_CONECTABRASIL5G/config",
+    "Sms": "https://painelconecta5g.com/update/pasta_CONECTABRASIL5G/sms",
+    "logoonline": "https://i.ibb.co/xzjDX9m/2020.png",
+    "fundoonline": "https://w.forfun.com/fetch/5f/5f6d5fe9b30a6d24b686db5a8a7a2452.jpeg",
+    "fundoDoLogOnline": false,
+    "EmailFeedback": false,
+    "UrlContato": false,
+    "UrlTermos": "",
+    "CheckUser": "true",
+    "ModderLinkWhatsapp": "https://t.me/helpconectabr",
+    "ModderLinkTelegram": "https://t.me/nobodyofc",
+    "ModderCorCaixaServ": "",
+    "ModderCorCaixaPay": "",
+    "ModderCorCaixaCentral": "",
+    "ModderCorCaixaConexao": "",
+    "ModderCorCaixaUsuario": "",
+    "ModderCorCaixaSenha": "",
+    "ModderCorBotaoIniciar": "transparent",
+    "ModderCorBotaoLog": "",
+    "ModderCorBotaoConfig": "",
+    "Udp": [
+        {
+            "Porta": "7300"
+        },
+        {
+            "Porta": "7100"
+        },
+        {
+            "Porta": "7200"
+        },
+        {
+            "Porta": "7400"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "👑CONECTABR-VIP👑",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "dnetvpn.site",
+            "CheckUser": "https://painel.robertvpn.online/checkuser/conecta4g.php",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        },
+        {
+            "Name": "🆓CONECTABR-FRE🆓",
+            "TYPE": "free",
+            "FLAG": "br.png",
+            "ServerIP": "conectafree.nobodyofc.online",
+            "CheckUser": "http://sucu.megah.tk/api_user?url=http://209.14.70.109:5454/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+            "Name": "📶 ESCOLHA SUA OPERADORA📶",
+            "FLAG": "vivo",
+            "Payload": "",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "",
+            "ProxyPort": "",
+            "Info": "Proxy"
+        },
+        {
+            "Name": " VIVO VOIP 🔊 ROTATE",
+            "FLAG": "vivo",
+            "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]@@@[delay_split]ACL / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Pragma: no-cache[crlf]Cache-Control: no-cache[crlf]ME-CHUPA[crlf][crlf]\r\n@@@[delay_split]ACL http://1.1.1.1rotate= buzzfeed.com;mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com; myspace.com;mobile.google.com ;1.0.0.5[crlf]@@@[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]@@@[delay_split]CONNECT http://portalrecarga.vivo.com.br/recarga/home/ HTTP/1.1[lf]@@@[split]\\nCONNECT [host_port]@portalrecarga.vivo.com.br/recarga/home/[protocol]\\nGET  http://sdp.vivo.com.br/ HTTP/1.1\\nHost: portalrecarga.vivo.com.br/recarga/home/produto[crlf]X-Forwarded-For: portalrecarga.vivo.com.br/recarga/home/\\n\\n\\n@@@[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf] @@@[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]@@@[split] [method] [host_port]GET sdp.vivo.com.br/ [protocol][crlf]Proxy-Authorization: [auth]Host: sdp.vivo.com.br[crlf][crlf]MOVE http://www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html HTTP/1.1[crlf][crlf]  ",
+            "SNI": "portalrecarga.vivo.com.br",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160#dnetvpn.site",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": " VIVO VOIP🔊",
+            "FLAG": "vivo",
+            "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [rotate= portal.vivo.com.br;portalrecarga.vivo.com.br/recarga/home/;meuplano.tim.com.br;www.vivo.com.br;buzzfeed.com;mobile.adobe.com;1.0.0.5;1.1.1.1;buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5;spotify.com;pagamentonline.emis.co.ao;playwaze.com;wazer.com;soundwaze.com;escolas.playwaze.com;www.wazeunlimited.com;bucs.playwaze.com;ftp.chillwaze.com;unpkg.com;c6bank.com.br;helpypro.stoodi.com.br;atendimento.lojadointer.com.br;creatorsupport.deezer.com:80;itsupport.surveymonkey.com;linefriendshelp.zendesk.com;vivo.interflashplusvpnpro.cloud;m2.interflashplusvpnpro.cloud][crlf][crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊0",
+            "FLAG": "vivo",
+            "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host:[rotate=www.atresplayer.com;www.aol.com;google.com;appengine.google.com;bdn.dev;origin-test.bdn.dev;cloud.google.com;crowdsource.google.com;datacompute.google.com;googleadapis.com;googleapis.cn;googlevideo.com;gstatic.cn;gstatic-cn.com;googlecnapps.cn;googlecnapps.cn;googleapps-cn.com;googleapps-cn.com;gkecnapps.cn;gkecnapps.cn;googledownloads.cn;googledownloads.cn;recaptcha.net.cn;recaptcha.net.cn;recaptcha-cn.net;recaptcha-cn.net;widevine.cn;ampproject.org.cn;ampproject.org.cn;ampproject.net.cn;ampproject.net.cn;google-analytics-cn.com;google-analytics-cn.com;googleadservices-cn.com;googleadservices-cn.com;googlevads-cn.com;googlevads-cn.com;googleapis-cn.com;googleapis-cn.com;googleoptimize-cn.com;googleoptimize-cn.com;doubleclick-cn.net;doubleclick-cn.net;fls.doubleclick-cn.net;g.doubleclick-cn.net;doubleclick.cn;doubleclick.cn;fls.doubleclick.cn;g.doubleclick.cn;dartsearch-cn.net;dartsearch-cn.net;googletraveladservices-cn.com;googletraveladservices-cn.com;googletagservices-cn.com;googletagservices-cn.com;googletagmanager-cn.com;googletagmanager-cn.com;googlesyndication-cn.com;googlesyndication-cn.com;safeframe.googlesyndication-cn.com;app-measurement-cn.com;app-measurement-cn.com;gvt1-cn.com;gvt1-cn.com;gvt2-cn.com;gvt2-cn.com;2mdn-cn.net;googleflights-cn.net;googleflights-cn.net;admob-cn.com;admob-cn.com;googlesandbox-cn.com;googlesandbox-cn.com;safenup.googlesandbox-cn.com;gstatic.com;metric.gstatic.com;gvt1.com;gcpcdn.gvt1.com;gvt2.com;gcp.gvt2.com;url.google.com;youtube-nocookie.com;ytimg.com;android.com;flash.andro;g.cn;g.co;www.goo.gl;google-analytics.com;google-analytics.com;google.com;googlecommerce.com;ggpht.cn;urchin.com;youtu.be;youtube.com;youtubeeducation.com;youtubekids.com;yt.be;android.clients.google.com;developer.android.google.cn;developers.android.google.cn;source.android.google.cn;m.youtube.com;wap.yy.com;net.supercell.com;www.disney.com;www.bbc.com;www.godaddy.com;adclick.g.doubleclick.net;www.buzzfeed.com;www.alipay.com;www.monster.com;www.playstation.net;mail.hotmail.com;ads.mopub.com;m.weibo.cn;www.flickr.com;d1n212ccp6ldpw.cloudfront.net;www.ebay.com;api-oyon.viu.com;download.cdn.viber.com;www.palcomp3.com;www.line.me;www.xvideos.com;www.nba.com;www.samsung.com;vivo.com;vivo.com.br;www.sina.com;www.cnn.com;www.youtube.com;www.bradesco.com.br;www.spotify.com;www.netflix.com;www.apple.com;www.skype.com;www.mercadolivre.com.br;ideas.mercadolibre.com;www.tidal.com;wn.qq.com;www.akamaized.net;www.iflix.com.br;www.myspace.com;www.opera.com;www.xbox.com;www.amazon.com;www.soundcloud.com;opera-mini.net;www.deezer.com;www.olx.com.br;www.wechat.com;googleads.g.;itunes.com;www.terra.com;mail.google.com;www.pinterest.com;www.blackberry.com;www.operamini.com;www.uber.com;www.wikipedia.com;www.utorrent.com;www.msn.com;www.googlesyndication.com;m.mobilelegends.com;www.badoo.com;www.tripadvisor.com.br;www.kik.com;www.movistar.co;www.cabify.com;www.bing.com;www.crashlytics.com;www.hooq.tv;cdn.ml.youngjoygame.com;www.reddit.com;imgur.com;adash.man.aliyuncs.com;www.sky.com.br;mtalk.google.com;twitter.com;t.co;www.google.com;ff.garena.com;googleads.g.doubleclick.net;e.crashlytics.com ;get.adobe.com;www.movistar.com;m.waze.com][crlf] [crlf][crlf] [crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 1",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 2",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 3",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL /revive.vivointernetgratis.com.br HTTP/1.1][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊4",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]CONNECT navegue.vivo.ddivulga.com/pacote \r\nHTTP/1.1[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊5",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]CONNECT navegue.vivo.ddivulga.com/pacote HTTP/1.1[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊6",
+            "FLAG": "vivo",
+            "Payload": "[split] [method] [host_port]GET sdp.vivo.com.br/ [protocol][crlf]Proxy-Authorization: [auth]Host: sdp.vivo.com.br[crlf][crlf]MOVE http://www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html HTTP/1.1[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 7",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]GET http://m.clarosync.com/ HTTP/1.1 Host: http://m.clarosync.com/\r\nUser-Agent: YesConnection: close\r\nProxy-Connection: Keep-Alive[crlf][crlf][netData][crlf] [crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 8",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]GET http://d1n212ccp6ldpw.cloudfront.net HTTP/1.1\\n\\r\\n\\r\\nCONNECT 127.0.0.1:443HTTP/1.0X-Online-Host: http://download-this-pl.info/124BR/MP.html \\r\\n\\r\\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 10",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]CONNECT http://i.vivo.ddivulga.com/i/gp/ HTTP/1.1[crlf][split]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 11",
+            "FLAG": "vivo",
+            "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP 🔊12",
+            "FLAG": "vivo",
+            "Payload": "[split][delay_split]ACL / /\\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 13",
+            "FLAG": "vivo",
+            "Payload": "[rotate=ACL;BDELETE;BMOVE;BPROPFIND;LOCK;MERGE;MKCOL;MOVE;NOTIFY;ORDERPATCH;PATCH;POLL;PROPFIND;SEARCH;SUBSCRIBE;UNSUBSCRIBE;UNLOCK;UPDATE] HTTP/1.1[crlf]Host: [rotate=www.atresplayer.com;www.aol.com;google.com;appengine.google.com;bdn.dev;origin-test.bdn.dev;cloud.google.com;crowdsource.google.com;datacompute.google.com;googleadapis.com;googleapis.cn;googlevideo.com;gstatic.cn;gstatic-cn.com;googlecnapps.cn;googlecnapps.cn;googleapps-cn.com;googleapps-cn.com;gkecnapps.cn;gkecnapps.cn;googledownloads.cn;googledownloads.cn;recaptcha.net.cn;recaptcha.net.cn;recaptcha-cn.net;recaptcha-cn.net;widevine.cn;ampproject.org.cn;ampproject.org.cn;ampproject.net.cn;ampproject.net.cn;google-analytics-cn.com;google-analytics-cn.com;googleadservices-cn.com;googleadservices-cn.com;googlevads-cn.com;googlevads-cn.com;googleapis-cn.com;googleapis-cn.com;googleoptimize-cn.com;googleoptimize-cn.com;doubleclick-cn.net;doubleclick-cn.net;fls.doubleclick-cn.net;g.doubleclick-cn.net;doubleclick.cn;doubleclick.cn;fls.doubleclick.cn;g.doubleclick.cn;dartsearch-cn.net;dartsearch-cn.net;googletraveladservices-cn.com;googletraveladservices-cn.com;googletagservices-cn.com;googletagservices-cn.com;googletagmanager-cn.com;googletagmanager-cn.com;googlesyndication-cn.com;googlesyndication-cn.com;safeframe.googlesyndication-cn.com;app-measurement-cn.com;app-measurement-cn.com;gvt1-cn.com;gvt1-cn.com;gvt2-cn.com;gvt2-cn.com;2mdn-cn.net;googleflights-cn.net;googleflights-cn.net;admob-cn.com;admob-cn.com;googlesandbox-cn.com;googlesandbox-cn.com;safenup.googlesandbox-cn.com;gstatic.com;metric.gstatic.com;gvt1.com;gcpcdn.gvt1.com;gvt2.com;gcp.gvt2.com;url.google.com;youtube-nocookie.com;ytimg.com;android.com;flash.andro;g.cn;g.co;www.goo.gl;google-analytics.com;google-analytics.com;google.com;googlecommerce.com;ggpht.cn;urchin.com;youtu.be;youtube.com;youtubeeducation.com;youtubekids.com;yt.be;android.clients.google.com;developer.android.google.cn;developers.android.google.cn;source.android.google.cn;m.youtube.com;wap.yy.com;net.supercell.com;www.disney.com;www.bbc.com;www.godaddy.com;adclick.g.doubleclick.net;www.buzzfeed.com;www.alipay.com;www.monster.com;www.playstation.net;mail.hotmail.com;ads.mopub.com;m.weibo.cn;www.flickr.com;d1n212ccp6ldpw.cloudfront.net;www.ebay.com;api-oyon.viu.com;download.cdn.viber.com;www.palcomp3.com;www.line.me;www.xvideos.com;www.nba.com;www.samsung.com;vivo.com;vivo.com.br;www.sina.com;www.cnn.com;www.youtube.com;www.bradesco.com.br;www.spotify.com;www.netflix.com;www.apple.com;www.skype.com;www.mercadolivre.com.br;ideas.mercadolibre.com;www.tidal.com;wn.qq.com;www.akamaized.net;www.iflix.com.br;www.myspace.com;www.opera.com;www.xbox.com;www.amazon.com;www.soundcloud.com;opera-mini.net;www.deezer.com;www.olx.com.br;www.wechat.com;googleads.g.;itunes.com;www.terra.com;mail.google.com;www.pinterest.com;www.blackberry.com;www.operamini.com;www.uber.com;www.wikipedia.com;www.utorrent.com;www.msn.com;www.googlesyndication.com;m.mobilelegends.com;www.badoo.com;www.tripadvisor.com.br;www.kik.com;www.movistar.co;www.cabify.com;www.bing.com;www.crashlytics.com;www.hooq.tv;cdn.ml.youngjoygame.com;www.reddit.com;imgur.com;adash.man.aliyuncs.com;www.sky.com.br;mtalk.google.com;twitter.com;t.co;www.google.com;ff.garena.com;googleads.g.doubleclick.net;e.crashlytics.com ;get.adobe.com;www.movistar.com;m.waze.com][crlf] [crlf][crlf] [crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 14",
+            "FLAG": "vivo",
+            "Payload": "[split]COPY / [crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 15",
+            "FLAG": "vivo",
+            "Payload": "CONNECT [host_port] [protocol][crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 16",
+            "FLAG": "vivo",
+            "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 17",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 18",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 19",
+            "FLAG": "vivo",
+            "Payload": "[delay_split] GET / HTTP/2[crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 20",
+            "FLAG": "vivo",
+            "Payload": "[split]\\nACL / HTTP1.1\\n [netdata][ua]\\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 21",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL AtlasN42/ HTTP/1.1[crlf]Host: 164.152.51.162[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 22",
+            "FLAG": "vivo",
+            "Payload": "[split][lf]GET / HTTP/1.1[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 23",
+            "FLAG": "vivo",
+            "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br\\\\n\\\\n\\\\n \\\\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 24",
+            "FLAG": "vivo",
+            "Payload": "CONNECT [host][crlf][crlf][crlf]HEAD [protocol][crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 25",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL AtlaSNII42/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]@@@[protocol] [lf][lf][@@@[split][crlf][crlf] http/ [crlf][crlf]@@@HTTP/1.0 [crlf][crlf]|[crlf]@@@HTTP/ [lf]HTTP/ [lf][lf][HTTP/1.1 [crlf]Host: http://youtube.com[crlf][crlf]@@@HTTP/1.0 [crlf][crlf]Host: portal.vivosync.com.br[crlf][crlf]@@@HTTP/ [lf][lf]@@@HTTP/ \\n\\n\\n @@@HTTP/1.0 [crlf][crlf]@@@HTTP/1.1.200/ [crlf]Host:youtube;willianscds.com;suamusica; willians;cdsmoral;88545665466;deitabaiana.com; djoliver.com;6677788888775;murilo;atualizaçao.com;reidaatulizacao.com.pe[crlf][crlf]@@@HTTP/ [crlf][lf] Host: youngpornvideos.com[crlf][crlf]@@@HTTP/ [crlf][lf] Host: xnxx.com[crlf][crlf]@@@HTTP/1.0 [crlf]Host:  xvideos.com[crlf][crlf]|[crlf]@@@HTTP/1.0 [crlf]Host:  redtube.com[crlf][crlf]|[crlf]@@@HTTP/1.1 [crlf]Host: canalshowdafe.com.br[crlf][crlf]|[crlf]@@@[protocol] [crlf]Host: brasileirinhas.com.br[crlf][crlf]|[crlf]@@@HTTP/ [crlf][lf] Host: xnxx.com[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 26",
+            "FLAG": "vivo",
+            "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 27",
+            "FLAG": "vivo",
+            "Payload": "[delay_split][crlf]ACL / HTTP/1.1[crlf]Host: www.convergenciadigital.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP🔊 28",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL AtlasN42/ HTTP/1.1[crlf]Host: 164.152.51.162[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO 29",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL AtlasN42/ HTTP/1.1[crlf]Host: 164.152.51.162[crlf]Upgrade: websocket[crlf][crlf]@@@[delay_split][crlf]ACL / HTTP/1.1[crlf]Host: www.convergenciadigital.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf]@@@[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41[crlf][crlf]@@@CONNECT [host][crlf][crlf][crlf]HEAD [protocol][crlf][crlf]@@@[delay_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br\\\\n\\\\n\\\\n \\\\n@@@[split][lf]GET / HTTP/1.1[crlf][crlf]@@@[delay_split]ACL AtlasN42/ HTTP/1.1[crlf]Host: 164.152.51.162[crlf]Upgrade: websocket[crlf][crlf]@@@[split]\\nACL / HTTP1.1\\n [netdata][ua]\\n@@@[delay_split] GET / HTTP/2[crlf]@@@[delay_split]PATCH http://portal.vivo.com.br/ HTTP/1.1[crlf]Host: portal.vivo.com.br[crlf][crlf]@@@[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]@@@CONNECT [host_port] [protocol][crlf][crlf]@@@GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]@@@[split]COPY / [crlf]@@@[rotate=ACL;BDELETE;BMOVE;BPROPFIND;LOCK;MERGE;MKCOL;MOVE;NOTIFY;ORDERPATCH;PATCH;POLL;PROPFIND;SEARCH;SUBSCRIBE;UNSUBSCRIBE;UNLOCK;UPDATE] HTTP/1.1[crlf]Host: [rotate=www.atresplayer.com;www.aol.com;google.com;appengine.google.com;bdn.dev;origin-test.bdn.dev;cloud.google.com;crowdsource.google.com;datacompute.google.com;googleadapis.com;googleapis.cn;googlevideo.com;gstatic.cn;gstatic-cn.com;googlecnapps.cn;googlecnapps.cn;googleapps-cn.com;googleapps-cn.com;gkecnapps.cn;gkecnapps.cn;googledownloads.cn;googledownloads.cn;recaptcha.net.cn;recaptcha.net.cn;recaptcha-cn.net;recaptcha-cn.net;widevine.cn;ampproject.org.cn;ampproject.org.cn;ampproject.net.cn;ampproject.net.cn;google-analytics-cn.com;google-analytics-cn.com;googleadservices-cn.com;googleadservices-cn.com;googlevads-cn.com;googlevads-cn.com;googleapis-cn.com;googleapis-cn.com;googleoptimize-cn.com;googleoptimize-cn.com;doubleclick-cn.net;doubleclick-cn.net;fls.doubleclick-cn.net;g.doubleclick-cn.net;doubleclick.cn;doubleclick.cn;fls.doubleclick.cn;g.doubleclick.cn;dartsearch-cn.net;dartsearch-cn.net;googletraveladservices-cn.com;googletraveladservices-cn.com;googletagservices-cn.com;googletagservices-cn.com;googletagmanager-cn.com;googletagmanager-cn.com;googlesyndication-cn.com;googlesyndication-cn.com;safeframe.googlesyndication-cn.com;app-measurement-cn.com;app-measurement-cn.com;gvt1-cn.com;gvt1-cn.com;gvt2-cn.com;gvt2-cn.com;2mdn-cn.net;googleflights-cn.net;googleflights-cn.net;admob-cn.com;admob-cn.com;googlesandbox-cn.com;googlesandbox-cn.com;safenup.googlesandbox-cn.com;gstatic.com;metric.gstatic.com;gvt1.com;gcpcdn.gvt1.com;gvt2.com;gcp.gvt2.com;url.google.com;youtube-nocookie.com;ytimg.com;android.com;flash.andro;g.cn;g.co;www.goo.gl;google-analytics.com;google-analytics.com;google.com;googlecommerce.com;ggpht.cn;urchin.com;youtu.be;youtube.com;youtubeeducation.com;youtubekids.com;yt.be;android.clients.google.com;developer.android.google.cn;developers.android.google.cn;source.android.google.cn;m.youtube.com;wap.yy.com;net.supercell.com;www.disney.com;www.bbc.com;www.godaddy.com;adclick.g.doubleclick.net;www.buzzfeed.com;www.alipay.com;www.monster.com;www.playstation.net;mail.hotmail.com;ads.mopub.com;m.weibo.cn;www.flickr.com;d1n212ccp6ldpw.cloudfront.net;www.ebay.com;api-oyon.viu.com;download.cdn.viber.com;www.palcomp3.com;www.line.me;www.xvideos.com;www.nba.com;www.samsung.com;vivo.com;vivo.com.br;www.sina.com;www.cnn.com;www.youtube.com;www.bradesco.com.br;www.spotify.com;www.netflix.com;www.apple.com;www.skype.com;www.mercadolivre.com.br;ideas.mercadolibre.com;www.tidal.com;wn.qq.com;www.akamaized.net;www.iflix.com.br;www.myspace.com;www.opera.com;www.xbox.com;www.amazon.com;www.soundcloud.com;opera-mini.net;www.deezer.com;www.olx.com.br;www.wechat.com;googleads.g.;itunes.com;www.terra.com;mail.google.com;www.pinterest.com;www.blackberry.com;www.operamini.com;www.uber.com;www.wikipedia.com;www.utorrent.com;www.msn.com;www.googlesyndication.com;m.mobilelegends.com;www.badoo.com;www.tripadvisor.com.br;www.kik.com;www.movistar.co;www.cabify.com;www.bing.com;www.crashlytics.com;www.hooq.tv;cdn.ml.youngjoygame.com;www.reddit.com;imgur.com;adash.man.aliyuncs.com;www.sky.com.br;mtalk.google.com;twitter.com;t.co;www.google.com;ff.garena.com;googleads.g.doubleclick.net;e.crashlytics.com ;get.adobe.com;www.movistar.com;m.waze.com][crlf] [crlf][crlf] [crlf]@@@[split][delay_split]ACL@@@[delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]@@@[delay_split]CONNECT http://i.vivo.ddivulga.com/i/gp/ HTTP/1.1[crlf][split]@@@[delay_split] ACL / HTTP/1.1[crlf]Host:[random=  990d529o618j5d067d.speedup.mobi;73o3t654ax290b9416.speedup.mobi;z34391e5365g5b06q7.speedup.mobi;k36pfa6717135449x6.speedup.mobi;9v6lo52643k898v914.speedup.mobi;4569003174m6usb4k1.speedup.mobi;64853g171ad94vx574.speedup.mobi;0pz647o9uz35551113.speedup.mobi;66e3v53e9689s4k177.speedup.mobi;b9q153f818f446y762.speedup.mobi;48a16857b75c3159iw.speedup.mobi;04671963ts238ig54w.speedup.mobi][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]@@@[delay_split]GET http://d1n212ccp6ldpw.cloudfront.net HTTP/1.1\\n\\r\\n\\r\\nCONNECT 127.0.0.1:443HTTP/1.0X-Online-Host: http://download-this-pl.info/124BR/MP.html \\r\\n\\r\\n@@@[delay_split]GET http://m.clarosync.com/ HTTP/1.1 Host: http://m.clarosync.com/\r\nUser-Agent: YesConnection: close\r\nProxy-Connection: Keep-Alive[crlf][crlf][netData][crlf] [crlf][crlf]@@@[split] [method] [host_port]GET sdp.vivo.com.br/ [protocol][crlf]Proxy-Authorization: [auth]Host: sdp.vivo.com.br[crlf][crlf]MOVE http://www.portalsva2.vivo.com.br/captive-static/tarif-def/pd/index.html HTTP/1.1[crlf][crlf]@@@[delay_split]CONNECT navegue.vivo.ddivulga.com/pacote HTTP/1.1[lf][lf]@@@[delay_split]CONNECT navegue.vivo.ddivulga.com/pacote \r\nHTTP/1.1[lf][lf]@@@[delay_split]ACL /revive.vivointernetgratis.com.br HTTP/1.1][lf]@@@[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]@@@[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]@@@[delay_split][lf]ACL / HTTP/1.1[lf]Host:[rotate=www.atresplayer.com;www.aol.com;google.com;appengine.google.com;bdn.dev;origin-test.bdn.dev;cloud.google.com;crowdsource.google.com;datacompute.google.com;googleadapis.com;googleapis.cn;googlevideo.com;gstatic.cn;gstatic-cn.com;googlecnapps.cn;googlecnapps.cn;googleapps-cn.com;googleapps-cn.com;gkecnapps.cn;gkecnapps.cn;googledownloads.cn;googledownloads.cn;recaptcha.net.cn;recaptcha.net.cn;recaptcha-cn.net;recaptcha-cn.net;widevine.cn;ampproject.org.cn;ampproject.org.cn;ampproject.net.cn;ampproject.net.cn;google-analytics-cn.com;google-analytics-cn.com;googleadservices-cn.com;googleadservices-cn.com;googlevads-cn.com;googlevads-cn.com;googleapis-cn.com;googleapis-cn.com;googleoptimize-cn.com;googleoptimize-cn.com;doubleclick-cn.net;doubleclick-cn.net;fls.doubleclick-cn.net;g.doubleclick-cn.net;doubleclick.cn;doubleclick.cn;fls.doubleclick.cn;g.doubleclick.cn;dartsearch-cn.net;dartsearch-cn.net;googletraveladservices-cn.com;googletraveladservices-cn.com;googletagservices-cn.com;googletagservices-cn.com;googletagmanager-cn.com;googletagmanager-cn.com;googlesyndication-cn.com;googlesyndication-cn.com;safeframe.googlesyndication-cn.com;app-measurement-cn.com;app-measurement-cn.com;gvt1-cn.com;gvt1-cn.com;gvt2-cn.com;gvt2-cn.com;2mdn-cn.net;googleflights-cn.net;googleflights-cn.net;admob-cn.com;admob-cn.com;googlesandbox-cn.com;googlesandbox-cn.com;safenup.googlesandbox-cn.com;gstatic.com;metric.gstatic.com;gvt1.com;gcpcdn.gvt1.com;gvt2.com;gcp.gvt2.com;url.google.com;youtube-nocookie.com;ytimg.com;android.com;flash.andro;g.cn;g.co;www.goo.gl;google-analytics.com;google-analytics.com;google.com;googlecommerce.com;ggpht.cn;urchin.com;youtu.be;youtube.com;youtubeeducation.com;youtubekids.com;yt.be;android.clients.google.com;developer.android.google.cn;developers.android.google.cn;source.android.google.cn;m.youtube.com;wap.yy.com;net.supercell.com;www.disney.com;www.bbc.com;www.godaddy.com;adclick.g.doubleclick.net;www.buzzfeed.com;www.alipay.com;www.monster.com;www.playstation.net;mail.hotmail.com;ads.mopub.com;m.weibo.cn;www.flickr.com;d1n212ccp6ldpw.cloudfront.net;www.ebay.com;api-oyon.viu.com;download.cdn.viber.com;www.palcomp3.com;www.line.me;www.xvideos.com;www.nba.com;www.samsung.com;vivo.com;vivo.com.br;www.sina.com;www.cnn.com;www.youtube.com;www.bradesco.com.br;www.spotify.com;www.netflix.com;www.apple.com;www.skype.com;www.mercadolivre.com.br;ideas.mercadolibre.com;www.tidal.com;wn.qq.com;www.akamaized.net;www.iflix.com.br;www.myspace.com;www.opera.com;www.xbox.com;www.amazon.com;www.soundcloud.com;opera-mini.net;www.deezer.com;www.olx.com.br;www.wechat.com;googleads.g.;itunes.com;www.terra.com;mail.google.com;www.pinterest.com;www.blackberry.com;www.operamini.com;www.uber.com;www.wikipedia.com;www.utorrent.com;www.msn.com;www.googlesyndication.com;m.mobilelegends.com;www.badoo.com;www.tripadvisor.com.br;www.kik.com;www.movistar.co;www.cabify.com;www.bing.com;www.crashlytics.com;www.hooq.tv;cdn.ml.youngjoygame.com;www.reddit.com;imgur.com;adash.man.aliyuncs.com;www.sky.com.br;mtalk.google.com;twitter.com;t.co;www.google.com;ff.garena.com;googleads.g.doubleclick.net;e.crashlytics.com ;get.adobe.com;www.movistar.com;m.waze.com][crlf] [crlf][crlf] [crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO CONTROLE 🔊",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "104.16.51.111",
+            "TlsIP": "104.16.51.111",
+            "ProxyIP": "104.16.51.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO CONTROLE 1 🔊",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "104.16.53.111",
+            "TlsIP": "104.16.53.111",
+            "ProxyIP": "104.16.53.111",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO CONTROLE 2 🔊",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "unpkg.com",
+            "TlsIP": "unpkg.com",
+            "ProxyIP": "unpkg.com",
+            "ProxyPort": "80",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "VIVO WS",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Upgrade: websocket[crlf][crlf]\r\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.24.10.16#209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO WS 1",
+            "FLAG": "vivo",
+            "Payload": "[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO CONTROLE +",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.5[crlf]Host: [random=2m8t6m29ti19296593.speedup.mobi][crlf]backend: backend55[crlf]upgrade: websocket[crlf]connection: upgrade[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "108.158.172.101#209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO CONTROLE VELOX",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111#209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP NOVA🔊 ",
+            "FLAG": "vivo",
+            "Payload": " [delay_split] ACL / HTTP/1.1[crlf]Host:[random= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO EASY UNICA",
+            "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.18.7.41#104.17.70.206#104.17.71.206#104.17.72.206#104.17.73.206#104.17.74.206#104.18.7.41#104.18.7.80#104.17.70.206",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO CL",
+            "FLAG": "vivo",
+            "Payload": "PATCH / HTTP/1.1[crlf]Host: dnetvpn.site[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "104.24.10.16#209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO VOIP 🔊 TURBO",
+            "FLAG": "vivo",
+            "Payload": "CONNECT 127.0.0.1:80[crlf][instant_split]ACL HTTP/1.1[auth][ssh][crlf]Upgrade: Websocket[crlf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "VIVO INSTANT SPLIT",
+            "FLAG": "vivo",
+            "Payload": "[instant_split][lf]GET / HTTP/1.1[lf]Host: portal.vivo.com.br\\\\n\\\\n\\\\n \\\\n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "209.14.70.109#20.206.249.160",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        }
+    ]
+}
